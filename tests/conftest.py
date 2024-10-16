@@ -4,6 +4,7 @@ from selenium import webdriver
 from selene import browser
 from mriya_tests.utils import attach
 from dotenv import load_dotenv
+from selenium.webdriver.chrome.options import Options
 
 
 @pytest.fixture(scope="session", autouse=True)
